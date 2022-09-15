@@ -1,7 +1,7 @@
 :root{
 --dark-color:#323232;
 --bcg-main-color:#F6F6F8;
---bcg-sek-color: #FFFFFF;
+--light-color: #FFFFFF;
 --accent-color: #504DC2;
 --main-text-color: #999999;
 
@@ -56,4 +56,31 @@ img {
     padding: 0px 15px;
 }
 
+/* header */
 
+.nav-list{
+    display: flex;
+    justify-content: flex-end;
+    background-color: #504DC2;
+
+}
+
+.nav-link{
+    text-decoration: none;
+    padding-top: 40px;
+    padding-bottom: 39px;
+    display: inline-block;
+    padding-left: 20px;
+    padding-right: 20px;
+    color: var(--light-color);
+}
+
+.nav-item{
+    font-weight: 500;
+    font-size: 16px;
+    line-height: 1.25;
+}
+
+.header{
+    border-bottom: 1px solid #A1A1A1;
+}
