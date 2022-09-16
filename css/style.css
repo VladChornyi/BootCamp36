@@ -156,3 +156,22 @@ margin-right: auto;
 
 
 }
+
+.about-circle {
+    width: 110px;
+    height: 110px;
+    border: 1px solid #E0E0E0;
+    border-radius: 50%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+  }
+.about-sub-circle {
+ width: 90px;
+ height: 90px;
+ border: 1px solid var(--bttn-color);
+ border-radius: 50%;
+ display: flex;
+ justify-content: center;
+ align-items: center;
+ }
