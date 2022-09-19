@@ -157,6 +157,11 @@ img {
   margin-left: auto;
   margin-right: auto;
 }
+/* about */
+.about{
+  padding-top: 110px;
+  padding-bottom: 105px;
+}
 
 .about-circle {
   width: 110px;
@@ -175,4 +180,33 @@ img {
   display: flex;
   justify-content: center;
   align-items: center;
+}
+
+.about-title{
+  margin: 0 auto 32px;
+  max-width: 739px;
+  font-weight: 700;
+  font-size: 36px;
+  line-height: 1.5;
+  text-align: center;
+  color:var(--dark-color);
+  }
+.about-text{
+ margin: 0 auto 70px;
+max-width: 730px;
+font-size: 16px;
+line-height: 1.55;
+}
+.about-list{
+
+display: flex;
+width: 353px;
+}
+
+.about-list:not(:last-child){
+  margin-right: 27px;
+}
+.about-item{
+  display: flex;
+  
 }
